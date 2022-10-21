@@ -1,0 +1,14 @@
+server:
+  port : 8080
+
+spring:
+  data:
+    mongodb:
+      database: SocialApp
+      host: localhost
+      port: 27017
+
+auth :
+  expiration : 604800
+  secret : SocialApp123
+  header : Authorization
